@@ -1,6 +1,6 @@
-# Tool : Wasii ( Facebook cloning tool)
-# Author : Waseem Akram ( hackerwasii )
-# github : https://github.com/evildevill
+# Tool : israelezekiel ( Facebook cloning tool)
+# Author : israel_hack's ( hackerisrael )
+# github : https://github.com/Israelezekiel
 # Note : we are not responsible for any misuse
 try:
     import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass, mechanize, requests
@@ -10,7 +10,7 @@ try:
 except ImportError:
     os.system('pip2 install requests')
     os.system('pip2 install mechanize')
-    os.system('python2 wasi.py')
+    os.system('python2 israel.py')
 
 reload(sys)
 sys.setdefaultencoding('utf8')
@@ -44,7 +44,7 @@ def cetak(b):
     sys.stdout.write(x + '\n')
 
 
-def wasii(z):
+def israel(z):
     for e in z + '\n':
         sys.stdout.write(e)
         sys.stdout.flush()
