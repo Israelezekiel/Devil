@@ -10,7 +10,7 @@ try:
 except ImportError:
     os.system('pip2 install requests')
     os.system('pip2 install mechanize')
-    os.system('python2 wasi.py')
+    os.system('python2 israel.py')
 
 reload(sys)
 sys.setdefaultencoding('utf8')
