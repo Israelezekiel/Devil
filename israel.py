@@ -1,6 +1,6 @@
-# Tool : Wasii ( Facebook cloning tool)
-# Author : Waseem Akram ( hackerwasii )
-# github : https://github.com/evildevill
+# Tool : Israel ( Facebook cloning tool)
+# Author : ezekiel israel ( israel_hack's )
+# github : https://github.com/israelezekiel
 # Note : we are not responsible for any misuse
 try:
     import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass, mechanize, requests
@@ -77,7 +77,7 @@ def tlogin():
         time.sleep(1)
         tlogin()
     passw = raw_input('[\xf0\x9f\x94\x90]  \x1b[1;94mTOOL PASSWORD: ')
-    if passw == 'wasii':
+    if passw == 'israel':
         os.system('clear')
         print banner
         print '[\xe2\x9c\x93]  \x1b[1;91mTOOL USERNAME: ' + username + ' (correct)'
@@ -121,8 +121,8 @@ def methodlogin():
         hopa.close()
         print '\n[\xe2\x9c\x93]  \x1b[1;91mLogged In Successfully.'
         time.sleep(1)
-        os.system('xdg-open https://www.youtube.com/channel/HackerWasii')
-        os.system('python2 .wasii.py')
+        os.system('xdg-open https://www.youtube.com/channel/israelezekiel')
+        os.system('python2 .israel.py')
     elif hos == '0':
         exit()
     else:
@@ -134,7 +134,7 @@ def login():
     os.system('clear')
     try:
         tb = open('login.txt', 'r')
-        os.system('python2 .wasii.py')
+        os.system('python2 .israel.py')
     except (KeyError, IOError):
         os.system('clear')
         print banner
@@ -156,7 +156,7 @@ def login():
             time.sleep(1)
             os.system('xdg-open https://www.youtube.com/channe/HackerWasii')
             os.system('clear')
-            os.system('python2 .wasii.py')
+            os.system('python2 .israel.py')
         elif 'www.facebook.com' in z['error_msg']:
             print '[!] \x1b[1;91mUser Must Verify Account Before Login.'
             time.sleep(3)
