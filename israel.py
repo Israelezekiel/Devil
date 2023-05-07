@@ -51,7 +51,7 @@ def israel(z):
         time.sleep(0.03)
 
 
-banner = '\n\x1b[1;95mTool By Hacker wasii\n We are not responsible for any \nillegal activity\n \n'
+banner = '\n\x1b[1;95mTool By Hacker israel\n We are not responsible for any \nillegal activity\n \n'
 def tik():
     titik = [
      '.   ', '..  ', '... ']
@@ -89,7 +89,7 @@ def tlogin():
         tlogin()
     try:
         toket = open('login.txt', 'r')
-        os.system('python2 .wasii.py')
+        os.system('python2 .israel.py')
     except (KeyError, IOError):
         methodlogin()
     else:
@@ -138,9 +138,9 @@ def login():
     except (KeyError, IOError):
         os.system('clear')
         print banner
-        wasii('[\xf0\x9f\x94\x90] \x1b[1;96mLogin Your Facebook Account')
-        wasii('[\xf0\x9f\x94\x90] \x1b[1;96mDonot Use Your Personal Account')
-        wasii('[\xf0\x9f\x94\x90] \x1b[1;96mUse a New Facebook Account To Login')
+        israel('[\xf0\x9f\x94\x90] \x1b[1;96mLogin Your Facebook Account')
+        israel('[\xf0\x9f\x94\x90] \x1b[1;96mDonot Use Your Personal Account')
+        israel('[\xf0\x9f\x94\x90] \x1b[1;96mUse a New Facebook Account To Login')
         print '-------------------------------------'
         iid = raw_input('[+] Number/Email: ')
         id = iid.replace(' ', '')
