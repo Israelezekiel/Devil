@@ -44,7 +44,7 @@ def cetak(b):
     sys.stdout.write(x + '\n')
 
 
-def wasii(z):
+def israel(z):
     for e in z + '\n':
         sys.stdout.write(e)
         sys.stdout.flush()
