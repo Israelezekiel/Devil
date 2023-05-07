@@ -1,14 +1,14 @@
 #### Thank You-🙏🏼
 
 <p>
-<img src="https://visitor-badge.laobi.icu/badge?page_id=HackerWaSi" alt="visitor badge"/>
+<img src="https://visitor-badge.laobi.icu/badge?page_id=Hackerisrael" alt="visitor badge"/>
 </p>
 
 
 Evil Devill (Devil FaceBook Hacking Tool)
                 
 **username** `hacker`
-**password** `wasii`
+**password** `israel`
 <p align="center">
   <a href="http://mocrz.blogspot.com/">
     <img src="https://img.shields.io/badge/EvilDevil-Mocrz-lightgrey">
@@ -25,8 +25,8 @@ Evil Devill (Devil FaceBook Hacking Tool)
   <a href="https://github.com/evildevill/Devil/wiki">
       <img src="https://img.shields.io/badge/wiki-Devil-lightgrey">
  </a>
-  <a href="https://twitter.com/hackerwasii">
-    <img src="https://img.shields.io/badge/twitter-Hackerwasi-blue.svg">
+  <a>
+    <img src="https://img.shields.io/badge/twitter-Hackerisrael-blue.svg">
  </a>
 </p>
 
@@ -76,7 +76,7 @@ operating systems - Kali Linux and Termux!
 
 > chmod +x *
 
-> python2 wasi.py 
+> python2 israel.py 
 
 ```
 
